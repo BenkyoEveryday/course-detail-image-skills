@@ -1,0 +1,20 @@
+{
+  "name": "course-detail-team",
+  "interface": {
+    "displayName": "课程内容制作团队"
+  },
+  "plugins": [
+    {
+      "name": "course-detail-image-generator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/course-detail-image-generator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "无 PS 真实素材嵌入"
+  short_description: "无需 Photoshop，将真实素材嵌入矩形或透视占位并恢复遮挡"
+  default_prompt: "Use $embed-real-images-no-ps to place my source images into rectangular or perspective design placeholders without Photoshop or AI redrawing."

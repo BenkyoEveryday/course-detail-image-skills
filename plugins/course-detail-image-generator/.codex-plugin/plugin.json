@@ -1,0 +1,24 @@
+{
+  "name": "course-detail-image-generator",
+  "version": "1.0.0",
+  "description": "Generate course product detail images from structured requirements and embed real screenshots without AI redrawing.",
+  "author": {
+    "name": "Course Content Team"
+  },
+  "keywords": ["courseware", "detail-image", "image-generation", "screenshot-embedding"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "课程详情图生成",
+    "shortDescription": "从需求文档生成课程详情图并无损嵌入真实素材。",
+    "longDescription": "提供完整的课程商品封面与详情图工作流：解析 Word 或 Markdown 需求、确认页面映射、调用图像生成工具制作视觉稿、检测真实占位比例，并通过确定性无 PS 流程嵌入课件截图、教案和导学案。",
+    "developerName": "Course Content Team",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "使用详情图生成技能，根据这份 Word 需求文档制作课程详情图。",
+      "解析需求文档并输出页面映射表和素材比例契约。",
+      "将真实课件截图无损嵌入已确认的详情图占位稿。"
+    ],
+    "brandColor": "#A61B1B"
+  }
+}
