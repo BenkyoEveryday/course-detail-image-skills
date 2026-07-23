@@ -1,5 +1,5 @@
 ---
-name: 详情图生成
+name: generate-course-detail-images
 description: "Generate course product cover/detail-page images from either a Word requirements document or a ZIP archive containing one Markdown requirements file plus an image folder. First create high-design gpt-image2/image2 visual drafts that obey source-specified image usage and exact placeholder ratios, then use the embed-real-images-no-ps skill to deterministically place extracted real screenshots/photos into placeholders marked 真实占位图 without Photoshop or AI redrawing. Use for strict supplied copy, fixed 16:9/3:4 outputs, staged page mapping, ratio-locked placeholder drafts, and final real-material embedding. Also trigger when the user says 详情图生成."
 ---
 

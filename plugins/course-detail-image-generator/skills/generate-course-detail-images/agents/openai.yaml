@@ -1,0 +1,4 @@
+interface:
+  display_name: "详情图生成"
+  short_description: "解析 Word 或 Markdown 素材包，按指定比例生图并嵌入真实图片"
+  default_prompt: "使用 $generate-course-detail-images 根据我的 Word 需求文档或 Markdown 素材包生成课程详情图；先输出页面映射、风格方向和素材比例契约，等我确认后再生成。"

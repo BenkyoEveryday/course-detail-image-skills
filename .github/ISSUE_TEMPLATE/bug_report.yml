@@ -1,0 +1,48 @@
+name: Bug 报告
+description: 报告可复现的 Skill、脚本或安装问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿上传客户文档、课件截图、学生信息、密钥或其他敏感内容。
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      description: 插件版本、Git Tag 或 commit SHA
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: 组件
+      options:
+        - generate-course-detail-images
+        - embed-real-images-no-ps
+        - 插件安装或更新
+        - 仓库校验
+        - 文档
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 说明预期行为和实际行为。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 使用脱敏或虚构素材给出最小复现步骤。
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: 校验输出
+      description: 粘贴 `python3 scripts/validate_repository.py` 的相关输出。

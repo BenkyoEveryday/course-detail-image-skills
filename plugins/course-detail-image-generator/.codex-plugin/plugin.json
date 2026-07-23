@@ -1,6 +1,6 @@
 {
   "name": "course-detail-image-generator",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generate course product detail images from structured requirements and embed real screenshots without AI redrawing.",
   "author": {
     "name": "Course Content Team"

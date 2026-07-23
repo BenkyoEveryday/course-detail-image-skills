@@ -1,4 +1,0 @@
-interface:
-  display_name: "详情图生成"
-  short_description: "解析 Word 或 Markdown 素材包，按指定比例生图并嵌入真实图片"
-  default_prompt: "使用 $详情图生成 根据我的 Word 需求文档，或包含一份 Markdown 需求文件和图片文件夹的 ZIP 压缩包，生成课程详情图：先解析需求并输出页面映射表和风格方向给我确认；严格按图片用途分流，素材直接参与 image2 画面设计，真实占位图按需求中指定的图片占位比例生成槽位；视觉稿确认后再用无 PS 真实素材嵌入对应占位。"

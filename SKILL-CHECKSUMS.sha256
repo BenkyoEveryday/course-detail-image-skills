@@ -1,6 +1,6 @@
 f97435b15b0de652aaf3994d1d82c03c2d14e27b9230c53553634884d4ae6fbb  plugins/course-detail-image-generator/skills/embed-real-images-no-ps/SKILL.md
 0bfe5359631fda4dcc515869597043b910f2cb19936875ddae9a8a553a6dcddb  plugins/course-detail-image-generator/skills/embed-real-images-no-ps/agents/openai.yaml
 209aeb70474447c6b028d05264504952d547ec893a8933fa33fc7fed1ae8305f  plugins/course-detail-image-generator/skills/embed-real-images-no-ps/scripts/embed-real-images.cjs
-b27e377dc110b76d911fb655b4549cac14895e0ef4c64dd0e729e9ca4b240c9c  plugins/course-detail-image-generator/skills/详情图生成/SKILL.md
-98815190617e6621bb20f7da150e1abf9bf3209a948561e637f1e00765203f98  plugins/course-detail-image-generator/skills/详情图生成/agents/openai.yaml
-a1d9730f92e332db93027e9a56bcddb1a66da3a31608fc74f7f9e9780c289591  plugins/course-detail-image-generator/skills/详情图生成/references/视觉风格规范.md
+982b81a10d1501e6525e9431b8ca3830940c88b3a6348386299e91decd00d0d5  plugins/course-detail-image-generator/skills/generate-course-detail-images/SKILL.md
+e1cb3ee47eaa650f205ce57369fac603dfaedc412179547fde29f2d7215cfa04  plugins/course-detail-image-generator/skills/generate-course-detail-images/agents/openai.yaml
+a1d9730f92e332db93027e9a56bcddb1a66da3a31608fc74f7f9e9780c289591  plugins/course-detail-image-generator/skills/generate-course-detail-images/references/视觉风格规范.md
