@@ -16,8 +16,7 @@
 把下面这句话直接发送给 Codex Agent：
 
 ```text
-请使用当前环境已有的 GitHub/SSH 凭据，安装这个 GitHub 仓库里的 Codex 插件，
-并在安装完成后告诉我如何开始使用：
+请安装这个公开 GitHub 仓库里的 Codex 插件，并在安装完成后告诉我如何开始使用：
 https://github.com/BenkyoEveryday/course-detail-image-skills
 ```
 
@@ -36,11 +35,11 @@ Agent 应依次将该 GitHub 仓库添加为 marketplace，并安装其中的
 在终端执行：
 
 ```bash
-codex plugin marketplace add git@github.com:BenkyoEveryday/course-detail-image-skills.git --ref main
+codex plugin marketplace add https://github.com/BenkyoEveryday/course-detail-image-skills --ref main
 codex plugin add course-detail-image-generator@course-detail-team
 ```
 
-第一条命令通过 SSH 直接读取 GitHub 仓库，无需提前执行 `git clone`；执行者需要拥有该仓库的访问权限，并已配置 GitHub SSH 密钥。第二条命令会安装插件及其包含的两个 skills。
+第一条命令直接读取公开 GitHub 仓库，无需提前执行 `git clone`、登录 GitHub 或配置 SSH 密钥。第二条命令会安装插件及其包含的两个 skills。
 
 ## 更新已安装的插件
 
